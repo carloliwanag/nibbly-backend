@@ -1,0 +1,20 @@
+{
+  "name": "nibbly-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "serverless-bundle test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.892.0",
+    "serverless-bundle": "^4.3.0",
+    "serverless-dotenv-plugin": "^3.9.0",
+    "serverless-offline": "^6.9.0"
+  },
+  "dependencies": {
+    "uuid": "^7.0.3"
+  }
+}
