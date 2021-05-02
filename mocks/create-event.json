@@ -1,3 +1,8 @@
 {
-    "body":"{\"goatName\":\"Ana\",\"breed\":\"Philippine Native\",\"profileImage\":\"ana.jpg\",\"goatStatus\":\"active\"}"
+    "body":"{\"goatName\":\"Ana\",\"breed\":\"Philippine Native\",\"profileImage\":\"ana.jpg\",\"goatStatus\":\"active\"}",
+    "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
 }
