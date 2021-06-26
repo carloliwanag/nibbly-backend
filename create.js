@@ -12,9 +12,17 @@ export const main = handler(async (event, context) => {
       goatId: uuid.v1(), // A unique uuid
       goatName: data.goatName, // Parsed from request body
       breed: data.breed, // Parsed from request body
-      profileImage: data.profileImage,
+      profilePic: data.profilePic,
       goatStatus: data.goatStatus,
       createdAt: Date.now(), // Current Unix timestamp
+      earTag: data.earTag,
+      isFarmBorn: data.isFarmBorn,
+      sire: data.sire,
+      dam: data.dam,
+      birthdate: data.birthdate,
+      approximateAge: data.approximateAge,
+      initialCost: data.initialCost,
+      sex: data.sex
     },
   };
 

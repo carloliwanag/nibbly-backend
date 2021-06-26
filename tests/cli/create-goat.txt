@@ -25,3 +25,31 @@ npx aws-api-gateway-cli-test \
 --path-template='/goat' \
 --method='POST' \
 --body='{"goatName":"Maya","breed":"anglo nubian","profileImage":"maya.jpg","goatStatus":"active"}'
+
+
+
+npx aws-api-gateway-cli-test \
+--username='ecaliwanag@gmail.com' \
+--password='password123' \
+--user-pool-id='ap-southeast-1_rSfP6xrGG' \
+--app-client-id='24quhctesqq3rqfrkdq88hrv6a' \
+--cognito-region='ap-southeast-1' \
+--identity-pool-id='ap-southeast-1:b1b61531-99ff-4177-b9e3-776754d9cd73' \
+--invoke-url='https://9xrpwlk3ch.execute-api.ap-southeast-1.amazonaws.com/dev' \
+--api-gateway-region='ap-southeast-1' \
+--path-template='/goat' \
+--method='POST' \
+--body='{"goatName":"Maya","breed":"anglo nubian","profileImage":"maya.jpg","goatStatus":"active"}'
+
+npx aws-api-gateway-cli-test \
+--username='ecaliwanag@gmail.com' \
+--password='password123' \
+--user-pool-id='ap-southeast-1_rSfP6xrGG' \
+--app-client-id='24quhctesqq3rqfrkdq88hrv6a' \
+--cognito-region='ap-southeast-1' \
+--identity-pool-id='ap-southeast-1:b1b61531-99ff-4177-b9e3-776754d9cd73' \
+--invoke-url='https://9xrpwlk3ch.execute-api.ap-southeast-1.amazonaws.com/dev' \
+--api-gateway-region='ap-southeast-1' \
+--path-template='/goat' \
+--method='POST' \
+--body='{"goatName":"Mari","breed":"philippine native","profileImage":"mari.jpg","goatStatus":"active"}'
